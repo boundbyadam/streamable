@@ -1,5 +1,5 @@
 hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
-local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/3A9wdSkL"))()
+local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/W1MsXFGQ"))()
 
 Aiming.TeamCheck(false)
 
@@ -43,7 +43,7 @@ local DaHoodSettings = {
 }
 --------------------------------------------------
 getgenv().DaHoodSettings = DaHoodSettings        
-getgenv().Aiming.FOV = 50                         
+getgenv().Aiming.FOV = 55                         
 --------------------------------------------------- -fov 5.5-6.6 is legit
 
 function Aiming.Check()
