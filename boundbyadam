@@ -45,7 +45,7 @@ local DaHoodSettings = {
 }
 --------------------------------------------------
 getgenv().DaHoodSettings = DaHoodSettings        
-getgenv().Aiming.FOV = 30                         
+getgenv().Aiming.FOV = 40                         
 --------------------------------------------------- -fov 5.5-6.6 is legit
 
 function Aiming.Check()
