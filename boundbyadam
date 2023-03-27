@@ -29,6 +29,12 @@ Title = "boundbyadam"; -- loaded
 Text = "streamable made by adam"; -- thank you!!
 Duration = 5; -- how long the notification should in secounds
 })
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Updated"; -- loaded 
+Text = "Streamable updated!"; -- thank you!!
+Duration = 5; -- how long the notification should in secounds
+})
 ---------------------------------------------------------------
 local DaHoodSettings = {
     
